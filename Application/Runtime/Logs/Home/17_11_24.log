@@ -1,0 +1,128 @@
+[ 2017-11-24T14:39:32+08:00 ] ::1 /julei-10-14/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019291s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pageview` SET `count`='228' WHERE ( id = 0 ) [ RunTime:0.0547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023847s ]
+
+[ 2017-11-24T14:39:56+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/Blast.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006847s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-11-24T14:40:52+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [2] fopen(/var/www/html/julei-0816/Public/txt/input_1511505652.txt): failed to open stream: No such file or directory E:\wamp\www\julei-10-14\Application\Home\Controller\BlastController.class.php 第 12 行.
+
+[ 2017-11-24T14:44:22+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [2] fopen(/var/www/html/julei-0816/Public/txt/input_1511505862.txt): failed to open stream: No such file or directory E:\wamp\www\julei-10-14\Application\Home\Controller\BlastController.class.php 第 12 行.
+
+[ 2017-11-24T14:45:20+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/Blast.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-11-24T14:45:28+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [2] fopen(/var/www/html/julei-0816/Public/txt/input_1511505928.txt): failed to open stream: No such file or directory E:\wamp\www\julei-10-14\Application\Home\Controller\BlastController.class.php 第 12 行.
+
+[ 2017-11-24T14:45:43+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2] fopen(/var/www/html/julei-0816/Public/txt/input_1511505943.txt): failed to open stream: No such file or directory E:\wamp\www\julei-10-14\Application\Home\Controller\BlastController.class.php 第 12 行.
+
+[ 2017-11-24T14:45:52+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2] fopen(/var/www/html/julei-0816/Public/txt/input_1511505952.txt): failed to open stream: No such file or directory E:\wamp\www\julei-10-14\Application\Home\Controller\BlastController.class.php 第 12 行.
+
+[ 2017-11-24T14:57:32+08:00 ] ::1 /julei-10-14/index.php/Home/Blast/Blast.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016455s ]
+
